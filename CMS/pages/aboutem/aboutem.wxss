@@ -1,0 +1,5 @@
+/* pages/aboutem/aboutem.wxss */
+.aboutem{ }
+.aboutem-title{text-indent: 4em;font-size: 20px;color: rebeccapurple;}
+.aboutem-img{display: block;width: 60px; height: 30px;margin: 20px auto 0;}
+.aboutem-phone{text-indent: 6em;font-size: 16px;}

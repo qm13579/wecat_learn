@@ -1,0 +1,16 @@
+<!--pages/list/list.wxml-->
+<text>pages/list/list.wxml</text>
+<view>
+  <template name="lists">
+    <navigator
+    url="/pages/detail/detail?id={{id}}"
+    hover-class="navigator-hover">
+      <view>{{title}}</view>
+      <view>{{phone}}</view>
+      <view>{{adder}}</view>
+    </navigator>
+  </template>
+  <block wx:for="{{newList}}">
+    <template is="lists" data="{{...item}}"></template>
+  </block>
+</view>

@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="aboutem">
+  <view class='aboutem-title'>{{title}}</view>
+  <view><image class='aboutem-img' src="{{img}}"></image></view>
+  <view class='aboutem-phone'>{{phone}}</view>
+</view>

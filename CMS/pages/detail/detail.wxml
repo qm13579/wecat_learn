@@ -1,0 +1,7 @@
+<!--pages/detail/detail.wxml-->
+<text>pages/detail/detail.wxml</text>
+<view>
+    <view>{{info.title}}</view>
+    <view>{{info.phone}}</view>
+    <view>{{info.adder}}</view>
+</view>
